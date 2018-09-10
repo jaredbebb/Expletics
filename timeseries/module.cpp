@@ -1,9 +1,12 @@
 #include "module.h"
 /*
+Helpful links:
 https://www.tutorialspoint.com/python/python_further_extensions.htm
 https://www.youtube.com/watch?v=y_eh00oE5rI
 https://docs.microsoft.com/en-us/visualstudio/python/working-with-c-cpp-python-in-visual-studio?view=vs-2017
 https://en.wikipedia.org/wiki/Dynamic_time_warping
+
+
 Step 1: Define true/positive time series classes, ap, an
 Step 2: Compare classes to current time series. abs(distanct(a-(ap or an))
 Step 3: Print Probability that it is +/- class

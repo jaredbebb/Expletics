@@ -1,0 +1,6 @@
+module.cpp
+setup.py
+timeseries.egg-info/PKG-INFO
+timeseries.egg-info/SOURCES.txt
+timeseries.egg-info/dependency_links.txt
+timeseries.egg-info/top_level.txt
