@@ -1,0 +1,8 @@
+from distutils.core import setup, Extension, DEBUG
+
+sfc_module = Extension('timeseries', sources = ['module.cpp'])
+
+setup(name = 'timeseries', version = '1.0',
+    description = 'Python Package with timeseries C++ extension',
+    ext_modules = [sfc_module]
+    )
