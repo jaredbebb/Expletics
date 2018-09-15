@@ -6,6 +6,13 @@
 #endif // _DEBUG
 
 #include <Python.h>
+//#include "D:\Python27_32bit\Lib\site-packages\numpy\core\include\numpy\arrayobject.h"
+#include<iostream>
+#include "tchar.h"
+#include <vector>
+#include <numeric>
+#include <algorithm>
+#include <exception>
 
 #ifdef _DEBUG_WAS_DEFINED
 #define _DEBUG 1

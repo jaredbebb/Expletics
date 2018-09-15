@@ -6,36 +6,19 @@ https://www.youtube.com/watch?v=y_eh00oE5rI
 https://docs.microsoft.com/en-us/visualstudio/python/working-with-c-cpp-python-in-visual-studio?view=vs-2017
 https://en.wikipedia.org/wiki/Dynamic_time_warping
 
-
 Step 1: Define true/positive time series classes, ap, an
 Step 2: Compare classes to current time series. abs(distanct(a-(ap or an))
 Step 3: Print Probability that it is +/- class
 */
-
 #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
-#include<iostream>
-#include "tchar.h"
-#include <vector>
-#include <numeric>
-#include <algorithm>
-#include <exception>
 
-PyObject* add_one(PyObject* self, PyObject* args) {
-	int i;
-	if (!PyArg_ParseTuple(args, "i", &i))
-	{
-		goto error;
-	}
-	return PyInt_FromLong(i + 1);
-error:
-	return 0;
-}
 
 PyObject* dtw(PyObject * lista, PyObject * listb)
 {
 	int sizea = PyList_Size(lista);
+	int sizeb = PyList_Size(listb);
 	std::vector<std::vector<double>> distance_matrix;
-	distance_matrix.resize(sizea, std::vector<double>(sizea, 0.0));
+	distance_matrix.resize(sizea, std::vector<double>(sizeb, 0.0));
 	double top = 0.0;
 	double left = 0.0;
 	double diagonal = 0.0;
@@ -43,9 +26,13 @@ PyObject* dtw(PyObject * lista, PyObject * listb)
 	double current = 0.0;
 	double compareTo = 0.0;
 	for (int i = 0; i < sizea; i++) {
-		for (int j = 0; j < sizea; j++) {
-			current = PyFloat_AS_DOUBLE(PyList_GET_ITEM(lista, i));
-			compareTo = PyFloat_AS_DOUBLE(PyList_GET_ITEM(listb, j));
+		for (int j = 0; j < sizeb; j++) {
+			current = PyFloat_AsDouble(PyList_GetItem(lista, i));
+			compareTo = PyFloat_AsDouble(PyList_GetItem(listb, j));
+			if (PyErr_Occurred()) {
+				PyErr_SetString(PyExc_TypeError, "List a or list b parameters are not list of type double. Example use dtwdistance([0.1,0.2,0.3],[0.4,0.5,0.6])");
+				return (PyObject *)NULL;
+			}
 			cost = std::abs(current-compareTo);
 			if (i == 0 && j == 0) {
 				distance_matrix[i][j] = cost;
@@ -74,15 +61,26 @@ PyObject* dtwdistance(PyObject *self, PyObject *args)
 	PyObject *lista;
 	PyObject *listb;
 	PyArg_UnpackTuple(args, "ref", 1, 2, &lista, &listb);
-	return dtw(lista, listb);
+	//return 
+	if (!PyList_Check(lista) || !PyList_Check(listb)) {
+		PyErr_SetString(PyExc_TypeError, "List a or list b parameters are not list type. Example use dtwdistance([0.1,0.2,0.3],[0.4,0.5,0.6])");
+		return (PyObject *)NULL;
+	}
+	int sizea = PyList_Size(lista);
+	int sizeb = PyList_Size(listb);
+	//works with unequal sized lists
+	if (sizea > sizeb) {
+		return dtw(listb, lista);
+	}
+	else {
+		return dtw(lista, listb);
+	}
 }
-
 
 PyMethodDef timeseriesMethods[] =
 {
-	{"add_one", (PyCFunction)add_one, METH_VARARGS, 0},
 	{"dtwdistance", (PyCFunction)dtwdistance, METH_VARARGS, 0},
-	{0, 0, 0, 0}
+	{NULL, NULL, NULL, NULL}
 };
 
 PyMODINIT_FUNC
