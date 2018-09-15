@@ -1,12 +1,14 @@
+#from distutils.core import setup, Extension, DEBUG
+
+#sfc_module = Extension('timeseries', sources = ['module.cpp'])
+#setup(name = 'timeseries', version = '1.0',
+#    description = 'Python Package with timeseries C++ extension',
+#   ext_modules = [sfc_module]
+#   )
+
+import os
 from setuptools import setup, Extension
 
-setup(
-    name = "timeseries",
-    version = "1.0.0.0.2",
-    author = "Jared Bebb",
-    license = "MIT",
-    keywords = "dtw dynamic time warp",
-    ext_modules = [Extension("timeseries",
-                           [ "module.cpp"],
-                         depends=["module.h"])],
-)
+module = Extension('timeseries', sources=['module.cpp'], language='c++')
+
+setup(name='timeseries', ext_modules = [module])
