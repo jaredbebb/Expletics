@@ -1,11 +1,5 @@
 #include "module.h"
 /*
-Helpful links:
-https://www.tutorialspoint.com/python/python_further_extensions.htm
-https://www.youtube.com/watch?v=y_eh00oE5rI
-https://docs.microsoft.com/en-us/visualstudio/python/working-with-c-cpp-python-in-visual-studio?view=vs-2017
-https://en.wikipedia.org/wiki/Dynamic_time_warping
-
 Step 1: Define true/positive time series classes, ap, an
 Step 2: Compare classes to current time series. abs(distanct(a-(ap or an))
 Step 3: Print Probability that it is +/- class
@@ -13,7 +7,7 @@ Step 3: Print Probability that it is +/- class
 #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
 
 
-PyObject* dtw(PyObject * lista, PyObject * listb)
+PyObject* calculate_dtw_distance(PyObject * lista, PyObject * listb)
 {
 	int sizea = PyList_Size(lista);
 	int sizeb = PyList_Size(listb);
@@ -56,7 +50,7 @@ PyObject* dtw(PyObject * lista, PyObject * listb)
 	return PyFloat_FromDouble(distance_matrix[sizea - 1][sizea - 1]);
 }
 
-PyObject* dtwdistance(PyObject *self, PyObject *args)
+PyObject* dtw(PyObject *self, PyObject *args)
 {
 	PyObject *lista;
 	PyObject *listb;
@@ -70,16 +64,20 @@ PyObject* dtwdistance(PyObject *self, PyObject *args)
 	int sizeb = PyList_Size(listb);
 	//works with unequal sized lists
 	if (sizea > sizeb) {
-		return dtw(listb, lista);
+		return calculate_dtw_distance(listb, lista);
 	}
 	else {
-		return dtw(lista, listb);
+		if (sizea < sizeb)
+		{
+			PyErr_WarnEx(PyExc_RuntimeWarning, "Unequal list sizes", 1);
+		}
+		return calculate_dtw_distance(lista, listb);
 	}
 }
 
 PyMethodDef timeseriesMethods[] =
 {
-	{"dtwdistance", (PyCFunction)dtwdistance, METH_VARARGS, 0},
+	{"dtw", (PyCFunction)dtw, METH_VARARGS, 0},
 	{NULL, NULL, NULL, NULL}
 };
 

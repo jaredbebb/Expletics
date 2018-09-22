@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>24c51030-8eb2-410c-bb90-b47dd56d5beb</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Trending_Modules.py</StartupFile>
+    <StartupFile>dtw_tests.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Trending_Modules.py" />
+    <Compile Include="dtw_tests.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|2.7-32" />
