@@ -1,8 +1,0 @@
-linear_model.cpp
-module.cpp
-setup.py
-expletics.egg-info/PKG-INFO
-expletics.egg-info/SOURCES.txt
-expletics.egg-info/dependency_links.txt
-expletics.egg-info/namespace_packages.txt
-expletics.egg-info/top_level.txt
