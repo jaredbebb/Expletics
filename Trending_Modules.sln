@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Trending_Modules", "Trending_Modules\Trending_Modules.pyproj", "{24C51030-8EB2-410C-BB90-B47DD56D5BEB}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "tests", "Trending_Modules\tests.pyproj", "{24C51030-8EB2-410C-BB90-B47DD56D5BEB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "timeseries", "timeseries\timeseries.vcxproj", "{6AE1243A-4269-4098-B63A-77FA7DFFFAFF}"
 EndProject

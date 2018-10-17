@@ -1,0 +1,7 @@
+module.cpp
+setup.py
+ts.egg-info/PKG-INFO
+ts.egg-info/SOURCES.txt
+ts.egg-info/dependency_links.txt
+ts.egg-info/namespace_packages.txt
+ts.egg-info/top_level.txt

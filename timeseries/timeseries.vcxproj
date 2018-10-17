@@ -131,8 +131,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="module.cpp" />
+    <ClCompile Include="linear_model.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="linear_model.h" />
     <ClInclude Include="module.h" />
   </ItemGroup>
   <ItemGroup>
