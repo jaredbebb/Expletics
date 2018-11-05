@@ -1,5 +1,7 @@
 linear_model.cpp
 module.cpp
+noddy.cpp
+object_container.cpp
 setup.py
 expletics.egg-info/PKG-INFO
 expletics.egg-info/SOURCES.txt

@@ -1,9 +1,5 @@
 #include "module.h"
-/*
-Step 1: Define true/positive time series classes, ap, an
-Step 2: Compare classes to current time series. abs(distanct(a-(ap or an))
-Step 3: Print Probability that it is +/- class
-*/
+
 #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
 
 
