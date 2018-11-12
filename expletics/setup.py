@@ -1,11 +1,13 @@
 import os
 from setuptools import setup, Extension
 
-timeseries = Extension('expletics.timeseries', sources=['module.cpp'],extra_compile_args=['-std=c++14'], language='c++')
-#linear_model = Extension('expletics.linear_model', sources=['linear_model.cpp'], language='c++')
-noddy2 = Extension("noddy4", sources=["noddy.cpp"],extra_compile_args=['-std=c++14'],language='c++')
-object_container = Extension("object_container", sources=["object_container.cpp"],extra_compile_args=['-std=c++14'],language='c++')
-linear_model = Extension("linear_model", sources=["linear_model.cpp"],extra_compile_args=['-std=c++14'],language='c++')
+headers = [
+    'LinearContainer.h',
+    ]
+
+
+timeseries = Extension('expletics.timeseries', sources=['module.cpp'], language='c++')
+linear_model = Extension("linear_model", sources=["linear_model.cpp","LinearContainer.cpp"],language='c++')
 
 setup(name='expletics',
       version = '0.0.0',
@@ -13,7 +15,8 @@ setup(name='expletics',
       author = 'Jared Bebb',
       python_requires = '>=2.7,<2.8',
       namespace_packages = ["expletics"],
-      ext_modules = [timeseries,noddy2,object_container,linear_model],
+      install_requires=['pybind11>=2.2'],
+      ext_modules = [timeseries,linear_model],
       classifiers=[
           "Development Status :: 4 - Beta",
           "Topic :: Scientific/Engineering",
@@ -23,4 +26,25 @@ setup(name='expletics',
 '''to compile binaries
 cd timeseries or where setup.py is stored
 Scripts\python setup.py sdist bdist_wheel
-pip install dist\ *.whl i.e timeseries-0.0.0.0-cp27-cp27m-win_amd64.whl'''
+pip install dist\ *.whl i.e expletics-0.0.0-cp27-cp27m-win_amd64.whl'''
+
+'''activate
+cd ...
+pip uninstall expletics
+y
+python setup.py sdist bdist_wheel
+pip install dist/expletics-0.0.0-cp27-cp27m-win_amd64.whl'''
+
+
+'''
+https://github.com/pybind/python_example
+For earlier versions of Python, including Python 2.7:
+
+Pybind11 requires a C++11 compliant compiler (i.e. Visual Studio 2015 on Windows). Running a regular pip install command will detect the version of the compiler used to build Python and attempt to build the extension with it. We must force the use of Visual Studio 2015.
+
+clone this repository
+"%VS140COMNTOOLS%\..\..\VC\vcvarsall.bat" x64
+set DISTUTILS_USE_SDK=1
+set MSSdk=1
+pip install ./python_example
+'''

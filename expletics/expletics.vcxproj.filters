@@ -18,12 +18,6 @@
     <ClCompile Include="module.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="noddy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="object_container.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="linear_model_depr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -33,12 +27,18 @@
     <ClCompile Include="linear_regressor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LinearContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="module.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="linear_model_depr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearContainer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

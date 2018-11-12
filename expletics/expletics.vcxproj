@@ -131,14 +131,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LinearContainer.cpp" />
     <ClCompile Include="linear_model.cpp" />
     <ClCompile Include="linear_regressor.cpp" />
     <ClCompile Include="module.cpp" />
     <ClCompile Include="linear_model_depr.cpp" />
-    <ClCompile Include="noddy.cpp" />
-    <ClCompile Include="object_container.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LinearContainer.h" />
     <ClInclude Include="linear_model_depr.h" />
     <ClInclude Include="module.h" />
   </ItemGroup>

@@ -10,20 +10,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/tests$demo.coverage" NAME="demo Coverage Results" MODIFIED="1541440170400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tests$Unittests_in_test_timeseries_py.coverage" NAME="Unittests in test_timeseries.py Coverage Results" MODIFIED="1541439927125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tests$Unittests_for_test_timeseries_EuclideanMethods.coverage" NAME="Unittests for test_timeseries.EuclideanMethods Coverage Results" MODIFIED="1541436167150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tests$Unittests_for_test_timeseries_Linear_Regression_Methods.coverage" NAME="Unittests for test_timeseries.Linear_Regression_Methods Coverage Results" MODIFIED="1541438955289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tests$demo.coverage" NAME="demo Coverage Results" MODIFIED="1541981158752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tests$Unittests_in_test_timeseries_py.coverage" NAME="Unittests in test_timeseries.py Coverage Results" MODIFIED="1541981378840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tests$Unittests_for_test_timeseries_EuclideanMethods.coverage" NAME="Unittests for test_timeseries.EuclideanMethods Coverage Results" MODIFIED="1541974972780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tests$Unittests_for_test_timeseries_EuclideanMethods_test_invalid_object_type.coverage" NAME="Unittests for test_timeseries.EuclideanMethods.test_invalid_object_type Coverage Results" MODIFIED="1541981171790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tests$Unittests_for_test_timeseries_Linear_Regression_Methods.coverage" NAME="Unittests for test_timeseries.Linear_Regression_Methods Coverage Results" MODIFIED="1541981324412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tests$Unittests_for_test_timeseries_DtwMethods.coverage" NAME="Unittests for test_timeseries.DtwMethods Coverage Results" MODIFIED="1540662749890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tests$Unittests_for_test_timeseries_Linear_Regression_Methods_test_linear_regression.coverage" NAME="Unittests for test_timeseries.Linear_Regression_Methods.test_linear_regression Coverage Results" MODIFIED="1541440213288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tests$Unittests_for_test_timeseries_Linear_Regression_Methods_test_linear_regression.coverage" NAME="Unittests for test_timeseries.Linear_Regression_Methods.test_linear_regression Coverage Results" MODIFIED="1541453507498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tests$Unittests_for_test_timeseries_EuclideanMethods_test_wrong_array_type.coverage" NAME="Unittests for test_timeseries.EuclideanMethods.test_wrong_array_type Coverage Results" MODIFIED="1541974876822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_timeseries.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_timeseries.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_timeseries.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="91" />
+            <state relative-caret-position="545">
+              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -31,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="demo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="153">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -52,8 +54,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_timeseries.py" />
         <option value="$PROJECT_DIR$/demo.py" />
+        <option value="$PROJECT_DIR$/test_timeseries.py" />
       </list>
     </option>
   </component>
@@ -67,8 +69,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1859" />
-    <option name="y" value="-10" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -77,7 +79,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -89,6 +90,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -109,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_timeseries.Linear_Regression_Methods.test_linear_regression">
+  <component name="RunManager" selected="Python tests.Unittests in test_timeseries.py">
     <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,6 +145,20 @@
       <option name="_new_target" value="&quot;test_timeseries.EuclideanMethods&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="Unittests for test_timeseries.EuclideanMethods.test_invalid_object_type" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_timeseries.EuclideanMethods.test_invalid_object_type&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <configuration name="Unittests for test_timeseries.Linear_Regression_Methods" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,20 +171,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_timeseries.Linear_Regression_Methods&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for test_timeseries.Linear_Regression_Methods.test_linear_regression" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="tests" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_timeseries.Linear_Regression_Methods.test_linear_regression&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests in test_timeseries.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -186,18 +188,18 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in test_timeseries.py" />
       <item itemvalue="Python.demo" />
-      <item itemvalue="Python tests.Unittests for test_timeseries.EuclideanMethods" />
       <item itemvalue="Python tests.Unittests for test_timeseries.Linear_Regression_Methods" />
-      <item itemvalue="Python tests.Unittests for test_timeseries.Linear_Regression_Methods.test_linear_regression" />
+      <item itemvalue="Python tests.Unittests for test_timeseries.EuclideanMethods" />
+      <item itemvalue="Python tests.Unittests for test_timeseries.EuclideanMethods.test_invalid_object_type" />
+      <item itemvalue="Python tests.Unittests in test_timeseries.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_timeseries.Linear_Regression_Methods.test_linear_regression" />
-        <item itemvalue="Python.demo" />
         <item itemvalue="Python tests.Unittests in test_timeseries.py" />
         <item itemvalue="Python tests.Unittests for test_timeseries.Linear_Regression_Methods" />
+        <item itemvalue="Python tests.Unittests for test_timeseries.EuclideanMethods.test_invalid_object_type" />
+        <item itemvalue="Python.demo" />
         <item itemvalue="Python tests.Unittests for test_timeseries.EuclideanMethods" />
       </list>
     </recent_temporary>
@@ -216,34 +218,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_timeseries_Linear_Regression_Methods_test_linear_regression - 2018.11.05 at 11h 40m 16s.xml">
-      <configuration name="Unittests for test_timeseries.Linear_Regression_Methods.test_linear_regression" configurationId="tests" />
+    <history-entry file="Unittests_for_test_timeseries_Linear_Regression_Methods - 2018.11.11 at 16h 31m 45s.xml">
+      <configuration name="Unittests for test_timeseries.Linear_Regression_Methods" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_timeseries_Linear_Regression_Methods_test_linear_regression - 2018.11.05 at 11h 40m 43s.xml">
-      <configuration name="Unittests for test_timeseries.Linear_Regression_Methods.test_linear_regression" configurationId="tests" />
+    <history-entry file="Unittests_for_test_timeseries_Linear_Regression_Methods - 2018.11.11 at 16h 35m 39s.xml">
+      <configuration name="Unittests for test_timeseries.Linear_Regression_Methods" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_timeseries_Linear_Regression_Methods_test_linear_regression - 2018.11.05 at 11h 41m 31s.xml">
-      <configuration name="Unittests for test_timeseries.Linear_Regression_Methods.test_linear_regression" configurationId="tests" />
+    <history-entry file="Unittests_for_test_timeseries_Linear_Regression_Methods - 2018.11.11 at 16h 41m 11s.xml">
+      <configuration name="Unittests for test_timeseries.Linear_Regression_Methods" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_timeseries_Linear_Regression_Methods_test_linear_regression - 2018.11.05 at 11h 41m 41s.xml">
-      <configuration name="Unittests for test_timeseries.Linear_Regression_Methods.test_linear_regression" configurationId="tests" />
+    <history-entry file="Unittests_for_test_timeseries_EuclideanMethods_test_invalid_object_type - 2018.11.11 at 16h 41m 45s.xml">
+      <configuration name="Unittests for test_timeseries.EuclideanMethods.test_invalid_object_type" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_timeseries_Linear_Regression_Methods_test_linear_regression - 2018.11.05 at 11h 42m 19s.xml">
-      <configuration name="Unittests for test_timeseries.Linear_Regression_Methods.test_linear_regression" configurationId="tests" />
+    <history-entry file="Unittests_for_test_timeseries_EuclideanMethods_test_invalid_object_type - 2018.11.11 at 18h 01m 47s.xml">
+      <configuration name="Unittests for test_timeseries.EuclideanMethods.test_invalid_object_type" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_timeseries_Linear_Regression_Methods_test_linear_regression - 2018.11.05 at 11h 43m 36s.xml">
-      <configuration name="Unittests for test_timeseries.Linear_Regression_Methods.test_linear_regression" configurationId="tests" />
+    <history-entry file="Unittests_for_test_timeseries_EuclideanMethods_test_invalid_object_type - 2018.11.11 at 18h 06m 11s.xml">
+      <configuration name="Unittests for test_timeseries.EuclideanMethods.test_invalid_object_type" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_timeseries_Linear_Regression_Methods_test_linear_regression - 2018.11.05 at 11h 44m 43s.xml">
-      <configuration name="Unittests for test_timeseries.Linear_Regression_Methods.test_linear_regression" configurationId="tests" />
+    <history-entry file="Unittests_for_test_timeseries_Linear_Regression_Methods - 2018.11.11 at 18h 08m 44s.xml">
+      <configuration name="Unittests for test_timeseries.Linear_Regression_Methods" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_timeseries_Linear_Regression_Methods_test_linear_regression - 2018.11.05 at 11h 44m 53s.xml">
-      <configuration name="Unittests for test_timeseries.Linear_Regression_Methods.test_linear_regression" configurationId="tests" />
+    <history-entry file="Unittests_in_test_timeseries_py - 2018.11.11 at 18h 08m 57s.xml">
+      <configuration name="Unittests in test_timeseries.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_timeseries_Linear_Regression_Methods_test_linear_regression - 2018.11.05 at 11h 45m 06s.xml">
-      <configuration name="Unittests for test_timeseries.Linear_Regression_Methods.test_linear_regression" configurationId="tests" />
+    <history-entry file="Unittests_in_test_timeseries_py - 2018.11.11 at 18h 09m 31s.xml">
+      <configuration name="Unittests in test_timeseries.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_timeseries_py - 2018.11.05 at 11h 45m 27s.xml">
+    <history-entry file="Unittests_in_test_timeseries_py - 2018.11.11 at 18h 09m 38s.xml">
       <configuration name="Unittests in test_timeseries.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -256,7 +258,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3875396" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2745512" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12291667" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -274,27 +276,27 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3843717" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3843717" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915523" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +306,98 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_timeseries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="88" column="62" selection-start-line="88" selection-start-column="62" selection-end-line="88" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_timeseries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_timeseries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="84" column="68" lean-forward="true" selection-start-line="84" selection-start-column="68" selection-end-line="84" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_timeseries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="70" selection-start-line="80" selection-start-column="70" selection-end-line="80" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_timeseries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="89" column="68" lean-forward="true" selection-start-line="89" selection-start-column="68" selection-end-line="89" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_timeseries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_timeseries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="91" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
@@ -314,13 +408,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -331,13 +419,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
@@ -348,13 +430,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
@@ -365,13 +441,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -382,13 +452,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="10" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -399,13 +463,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -416,13 +474,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -433,13 +485,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="57" lean-forward="true" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -450,13 +496,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -467,13 +507,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -484,13 +518,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -501,13 +529,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -518,13 +540,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="27" lean-forward="true" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -535,13 +551,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -552,13 +562,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -569,13 +573,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -586,13 +584,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="51" selection-start-column="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -603,13 +595,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="51" selection-start-column="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py" />
     <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
@@ -630,20 +616,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_timeseries.py">
+    <entry file="file://$PROJECT_DIR$/demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="91" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
+    <entry file="file://$PROJECT_DIR$/test_timeseries.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="545">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

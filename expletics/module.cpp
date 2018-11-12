@@ -113,6 +113,7 @@ PyObject* euclidean(PyObject *self, PyObject *args) {
 		}
 		sum += pow(a-b,2);
 	}
+
 	return PyFloat_FromDouble(sum);
 }
 

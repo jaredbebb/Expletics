@@ -59,7 +59,8 @@ class EuclideanMethods(unittest.TestCase):
             with self.assertRaises(TypeError):
                 euclidean(self.lista,i)
 
-from linear_model import linear_model
+
+from linear_model import linear_model as lm
 class Linear_Regression_Methods(unittest.TestCase):
     def setUp(self):
 
@@ -75,24 +76,24 @@ class Linear_Regression_Methods(unittest.TestCase):
 
 
     def test_linear_regression(self):
-        lm = linear_model()
-        lm.LinearRegression(self.list_x, self.list_y)
+        lm1 = lm()
+        lm1.LinearRegression(self.list_x, self.list_y)
         self.assertEqual(["%.4f" % e for e in [0.3553,3.1792, 30.1038]],
-                         ["%.4f" % e for e in lm.score,lm.b, lm.a])
-        lm2=linear_model()
+                         ["%.4f" % e for e in lm1.score,lm1.b, lm1.a])
+        lm2=lm()
         lm2.LinearRegression(self.list_x1, self.list_y1)
         self.assertEqual(["%.4f" % e for e in [1.0,1.0,1.0]],
                         ["%.4f" % e for e in lm2.score,lm2.b,lm2.a])
 
-        lm3 = linear_model()
+        lm3 = lm()
         lm3.LinearRegression(self.list_x2, self.list_y2)
         self.assertEqual(["%.4f" % e for e in [0.9944,9.6667,3.0]],
                         ["%.4f" % e for e in lm3.score,lm3.b,lm3.a])
 
-
-
-
-
+    #ensure that python lists are still accessible
+    def test_pointer(self):
+        self.assertEqual([17,13,12,15,16,14,16,16,18,19],self.list_x)
+        self.assertEqual([94,73,59,80,93,85,66,79,77,91], self.list_y)
 
 for methods in [DtwMethods,EuclideanMethods,Linear_Regression_Methods]:
     tests = [unittest.defaultTestLoader.loadTestsFromTestCase(methods)]
