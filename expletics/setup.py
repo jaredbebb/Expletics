@@ -33,7 +33,8 @@ cd ...
 pip uninstall expletics
 y
 python setup.py sdist bdist_wheel
-pip install dist/expletics-0.0.0-cp27-cp27m-win_amd64.whl'''
+pip install dist/expletics-0.0.0-cp27-cp27m-win_amd64.whl
+'''
 
 
 '''
