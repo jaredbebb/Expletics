@@ -7,6 +7,5 @@ Powerful analysis using python
 * Linear Regression
 
 **Information**
-
-Expletics is built using Cython for speed.
-C++ extensions for python
+* Expletics is built using Cython for speed.
+* C++ extensions for python
