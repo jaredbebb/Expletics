@@ -4,8 +4,10 @@
 * Dynamic Time Warping
 * Linear Regression
 
+**Installation**
+* Prebuilt binaries for Python version 2.7, 64 bit [dist](https://github.com/jaredbebb/expletics/tree/master/expletics/dist)
+
 **Information**
 * Expletics is built using Cython for speed.
 * C++ extensions for python
-* Prebuilt binaries for Python version 2.7, 64 bit
 * Project is under development
