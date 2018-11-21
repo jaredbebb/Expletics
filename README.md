@@ -1,4 +1,4 @@
-Expletics: Full strength modeling using python
+# Expletics: Full strength data modeling using python
 
 **Current supported time series features**
 * Dynamic Time Warping
