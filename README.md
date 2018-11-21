@@ -6,7 +6,7 @@
 
 **Installation**
 * Prebuilt binaries for Python version 2.7, 64 bit [dist/](https://github.com/jaredbebb/expletics/tree/master/expletics/dist)
- * pip install dist/expletics-0.0.0-cp27-cp27m-win_amd64.whl
+  * pip install dist/expletics-0.0.0-cp27-cp27m-win_amd64.whl
 * for other python versions see [setup.py](https://github.com/jaredbebb/expletics/blob/master/expletics/setup.py)
 
 **Information**
