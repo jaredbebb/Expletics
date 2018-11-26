@@ -19,14 +19,16 @@ x = [0,1,2,3,4,5,6,7,8,9]
 y = [5,10,25,30,40,50,65,70,80,90]
 
 lm.LinearRegression(x, y)
-print("lm.a:",lm.a)
-print("lm.b:",lm.b)
-print("score:",lm.score)
+print"a:",lm.a
+print"b:",lm.b
+print"score:",lm.score
 ```
 
-('lm.a:', 3.0)
-('lm.b:', 9.666666666666666)
-('score:', 0.9944104052456196)
+a: 3.0
+
+b: 9.66666666667
+
+score: 0.994410405246
 
 ```python
 import matplotlib.pyplot as plt
@@ -52,7 +54,6 @@ plt.plot(x, week3_count, 'c^')
 plt.legend(['trendup', 'trenddown', 'week1 count', 'week1 count','week3 count'], loc='center left',bbox_to_anchor=(1, 0.5))
 plt.show()
 
-#from expletics.timeseries import dtw
 from expletics.dtw import dtw
 up = dtw(week1_count,trendup)
 down = dtw(week1_count,trenddown)
@@ -68,8 +69,12 @@ up = dtw(week3_count,trendup)
 down = dtw(week3_count,trenddown)
 trending = down/up > 1.0
 print(trending)
-
 ```
+True
+
+False
+
+True
 
 **Information**
 * Expletics is built using Cython for speed.
