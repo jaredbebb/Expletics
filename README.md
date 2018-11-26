@@ -56,7 +56,9 @@ plt.plot(x, week3_count, 'c^')
 plt.legend(['trendup', 'trenddown', 'week1 count', 'week1 count','week3 count'], 
            loc='center left',bbox_to_anchor=(1, 0.5))
 plt.show()
-
+```
+![DTW](/images/dtw.png)
+```python
 #from expletics.timeseries import dtw
 from expletics.dtw import dtw
 up = dtw(week1_count,trendup)
