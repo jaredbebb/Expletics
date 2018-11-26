@@ -61,18 +61,23 @@ plt.show()
 
 Trend detection, based on [Hendrickson, et. al: "Trend Detection in Social Data".](https://github.com/jeffakolb/Gnip-Trend-Detection/raw/master/paper/trends.pdf)
 ```python
-#from expletics.timeseries import dtw
 from expletics.dtw import dtw
 up = dtw(week1_count,trendup)
 down = dtw(week1_count,trenddown)
 trending = down/up > 1.0
 print(trending)
+```
+True
 
+```python
 up = dtw(week2_count,trendup)
 down = dtw(week2_count,trenddown)
 trending = down/up > 1.0
 print(trending)
+```
+False
 
+```python
 up = dtw(week3_count,trendup)
 down = dtw(week3_count,trenddown)
 trending = down/up > 1.0
@@ -80,9 +85,6 @@ print(trending)
 ```
 True
 
-False
-
-True
 
 **Information**
 * Expletics is built using Cython for speed.
