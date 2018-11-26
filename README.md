@@ -36,7 +36,9 @@ plt.plot(x, y, 'bo')
 plt.plot([0,x[len(x)-1]], [lm.a,x[len(x)-1]*lm.b], 'r--')
 plt.legend(['count',' y = '+str(lm.a)+'x+ '+str(lm.b)+', R2='+str(lm.score)], loc='upper left')
 plt.show()
-
+```
+![LinearRegression](/images/linear_regression.png)
+```python
 
 x = [1,2,3,4,5,6,7]
 trendup = [0.0, 0.0, 0.0, 2.0, 4.0,8.0,16.0]
