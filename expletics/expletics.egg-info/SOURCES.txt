@@ -1,6 +1,6 @@
+Dtw.cpp
 LinearContainer.cpp
-linear_model.cpp
-module.cpp
+LinearModel.cpp
 setup.py
 expletics.egg-info/PKG-INFO
 expletics.egg-info/SOURCES.txt

@@ -132,15 +132,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LinearContainer.cpp" />
-    <ClCompile Include="linear_model.cpp" />
-    <ClCompile Include="linear_regressor.cpp" />
-    <ClCompile Include="module.cpp" />
-    <ClCompile Include="linear_model_depr.cpp" />
+    <ClCompile Include="LinearModel.cpp" />
+    <ClCompile Include="LinearRegressor.cpp" />
+    <ClCompile Include="Dtw.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinearContainer.h" />
-    <ClInclude Include="linear_model_depr.h" />
-    <ClInclude Include="module.h" />
+    <ClInclude Include="dtw.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="setup.py" />
