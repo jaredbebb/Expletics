@@ -58,6 +58,8 @@ plt.legend(['trendup', 'trenddown', 'week1 count', 'week1 count','week3 count'],
 plt.show()
 ```
 ![DTW](/images/dtw.png)
+
+Trend detection, based on [Hendrickson, et. al: "Trend Detection in Social Data".](https://github.com/jeffakolb/Gnip-Trend-Detection/raw/master/paper/trends.pdf)
 ```python
 #from expletics.timeseries import dtw
 from expletics.dtw import dtw
