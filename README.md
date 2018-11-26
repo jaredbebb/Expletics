@@ -13,18 +13,22 @@
 **Tutorial**
 
 ```python
-
 from linear_model import linear_model as LM
 lm = LM()
 x = [0,1,2,3,4,5,6,7,8,9]
 y = [5,10,25,30,40,50,65,70,80,90]
 
 lm.LinearRegression(x, y)
-print("done with linear_regression()")
 print("lm.a:",lm.a)
 print("lm.b:",lm.b)
 print("score:",lm.score)
+```
 
+('lm.a:', 3.0)
+('lm.b:', 9.666666666666666)
+('score:', 0.9944104052456196)
+
+```python
 import matplotlib.pyplot as plt
 plt.plot(x, y, 'bo')
 plt.plot([0,x[len(x)-1]], [lm.a,x[len(x)-1]*lm.b], 'r--')

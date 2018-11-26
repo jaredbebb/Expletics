@@ -4,7 +4,6 @@ x = [0,1,2,3,4,5,6,7,8,9]
 y = [5,10,25,30,40,50,65,70,80,90]
 
 lm.LinearRegression(x, y)
-print("done with linear_regression()")
 print("lm.a:",lm.a)
 print("lm.b:",lm.b)
 print("score:",lm.score)
