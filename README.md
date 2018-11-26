@@ -12,7 +12,7 @@
 
 **Tutorial**
 
-'''python
+```python
 
 from linear_model import linear_model as LM
 lm = LM()
@@ -65,7 +65,7 @@ down = dtw(week3_count,trenddown)
 trending = down/up > 1.0
 print(trending)
 
-'''
+```
 
 **Information**
 * Expletics is built using Cython for speed.
