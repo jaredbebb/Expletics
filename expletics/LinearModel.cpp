@@ -196,7 +196,7 @@ initlinear_model(void)
 		return;
 
 	m = Py_InitModule3("linear_model", module_methods,
-		"Example module that creates an extension type.");
+		"linear model module that creates an extension type.");
 
 	if (m == NULL)
 		return;

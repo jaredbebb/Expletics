@@ -27,12 +27,27 @@
     <ClCompile Include="LinearModel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Backpropogation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Perceptron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PerceptronExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinearContainer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="dtw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Perceptron.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Backpropogation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

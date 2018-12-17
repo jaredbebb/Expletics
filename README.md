@@ -85,6 +85,26 @@ print(trending)
 ```
 True
 
+Perceptron Model
+```python
+from perceptron_model import perceptron_model as pm
+perc = pm()
+perc.train(inp,labels,learning_rate,maxIter)
+
+test = [1.0,1.0]
+test1 = [0.7,0.84]
+test2 = [0.3,0.44]
+test3 = [0.0,0.0]
+
+print perc.predict(test)
+print perc.predict(test1)
+print perc.predict(test2)
+print perc.predict(test3)
+```
+1
+1
+0
+0
 
 **Information**
 * Expletics is built using Cython for speed.

@@ -131,14 +131,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Backpropogation.cpp" />
     <ClCompile Include="LinearContainer.cpp" />
     <ClCompile Include="LinearModel.cpp" />
     <ClCompile Include="LinearRegressor.cpp" />
     <ClCompile Include="Dtw.cpp" />
+    <ClCompile Include="Perceptron.cpp" />
+    <ClCompile Include="PerceptronExtension.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Backpropogation.h" />
     <ClInclude Include="LinearContainer.h" />
     <ClInclude Include="dtw.h" />
+    <ClInclude Include="Perceptron.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="setup.py" />

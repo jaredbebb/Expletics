@@ -1,6 +1,8 @@
 Dtw.cpp
 LinearContainer.cpp
 LinearModel.cpp
+Perceptron.cpp
+PerceptronExtension.cpp
 setup.py
 expletics.egg-info/PKG-INFO
 expletics.egg-info/SOURCES.txt

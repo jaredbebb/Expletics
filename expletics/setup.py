@@ -7,6 +7,7 @@ headers = [
 
 dtw = Extension('expletics.dtw', sources=['Dtw.cpp'], language='c++')
 linear_model = Extension("linear_model", sources=["LinearModel.cpp","LinearContainer.cpp"],language='c++')
+perceptron = Extension("perceptron_model", sources=["PerceptronExtension.cpp","Perceptron.cpp"],language='c++')
 
 setup(name='expletics',
       version = '0.0.0',
@@ -15,7 +16,7 @@ setup(name='expletics',
       python_requires = '>=2.7,<2.8',
       namespace_packages = ["expletics"],
       install_requires=['pybind11>=2.2'],
-      ext_modules = [dtw,linear_model],
+      ext_modules = [dtw,linear_model,perceptron],
       classifiers=[
           "Development Status :: 4 - Beta",
           "Topic :: Scientific/Engineering",
