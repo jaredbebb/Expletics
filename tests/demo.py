@@ -58,13 +58,24 @@ from perceptron_model import perceptron_model as pm
 perc = pm()
 perc.train(input,labels,learning_rate,maxIter)
 
-test = [1.0,1.0]
+test = [.88,.76]
 test1 = [0.7,0.84]
 test2 = [0.3,0.44]
-test3 = [0.0,0.0]
+test3 = [0.2,0.0]
 
 print perc.predict(test)
 print perc.predict(test1)
 print perc.predict(test2)
 print perc.predict(test3)
+
+x_pos,y_pos = zip(*input[0:2])
+plt.plot(x_pos,y_pos,'bo')
+x_neg,y_neg = zip(*input[2:5])
+plt.plot(x_neg,y_neg,'ro')
+
+plt.plot([test[0],test1[0]],[test[1],test1[1]],'b^')
+plt.plot([test2[0],test3[0]],[test2[1],test3[1]],'r^')
+plt.legend(['pos training', 'neg training','pos instance','neg instance'],
+           loc='center left',bbox_to_anchor=(1, 0.5))
+plt.show()
 

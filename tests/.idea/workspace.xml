@@ -10,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/tests$demo.coverage" NAME="demo Coverage Results" MODIFIED="1545021465304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tests$demo.coverage" NAME="demo Coverage Results" MODIFIED="1545023832741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tests$Unittests_in_test_timeseries_py.coverage" NAME="Unittests in test_timeseries.py Coverage Results" MODIFIED="1541981378840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tests$Unittests_for_test_timeseries_EuclideanMethods.coverage" NAME="Unittests for test_timeseries.EuclideanMethods Coverage Results" MODIFIED="1541974972780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tests$Unittests_for_test_timeseries_EuclideanMethods_test_invalid_object_type.coverage" NAME="Unittests for test_timeseries.EuclideanMethods.test_invalid_object_type Coverage Results" MODIFIED="1541981171790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="demo.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="63" selection-end-column="17" />
+            <state relative-caret-position="89">
+              <caret line="51" selection-start-line="51" selection-end-line="63" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -246,12 +246,12 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32946146" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26504752" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31362197" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.12291667" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info x="1920" y="23" width="1920" height="1017" id="SciView" order="3" sideWeight="0.49856323" visible="true" weight="0.2515625" />
+      <window_info active="true" x="1920" y="23" width="1920" height="1017" id="SciView" order="3" sideWeight="0.49856323" visible="true" weight="0.2515625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915523" />
@@ -622,8 +622,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="63" selection-end-column="17" />
+        <state relative-caret-position="89">
+          <caret line="51" selection-start-line="51" selection-end-line="63" selection-end-column="17" />
         </state>
       </provider>
     </entry>
