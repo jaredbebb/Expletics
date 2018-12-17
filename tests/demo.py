@@ -49,14 +49,14 @@ down = dtw(week3_count,trenddown)
 trending = down/up > 1.0
 print(trending)
 
-inp =  [[1, 1],[0.6, 0.6],[0.4, 0],[0, 0.4],[0, 0]]
+input =  [[1, 1],[0.6, 0.6],[0.4, 0],[0, 0.4],[0, 0]]
 labels = [1,1,0,0,0]
 learning_rate = 0.01
 maxIter = 10
 
 from perceptron_model import perceptron_model as pm
 perc = pm()
-perc.train(inp,labels,learning_rate,maxIter)
+perc.train(input,labels,learning_rate,maxIter)
 
 test = [1.0,1.0]
 test1 = [0.7,0.84]
