@@ -19,3 +19,7 @@ Release/
 timeseries/Debug/
 Trending_Modules/
 tests/venv/
+x64/
+.vs/
+Python37/
+UnitTestExpletics/x64

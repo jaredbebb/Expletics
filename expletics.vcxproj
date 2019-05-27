@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{63F3248F-F153-4B46-99E1-9DD4A2FB2847}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;EXPLETICS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;EXPLETICS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Documents\Visual Studio\repos\expletics\Python37\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>D:\Documents\Visual Studio\repos\expletics\Python37\libs\python37.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Documents\Visual Studio\repos\expletics\Python37\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>D:\Documents\Visual Studio\repos\expletics\Python37\libs\python37.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Dtw.cpp" />
+    <ClCompile Include="dtw_extension.cpp" />
+    <ClCompile Include="LinearRegression.cpp" />
+    <ClCompile Include="perceptron.cpp" />
+    <ClCompile Include="perceptron_extension.cpp" />
+    <ClCompile Include="python37\tcl\nmake\nmakehlp.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="python37\lib\idlelib\config-extensions.def" />
+    <None Include="python37\lib\idlelib\config-highlight.def" />
+    <None Include="python37\lib\idlelib\config-keys.def" />
+    <None Include="python37\lib\idlelib\config-main.def" />
+    <None Include="python37\lib\idlelib\help.html" />
+    <None Include="python37\lib\test\sgml_input.html" />
+    <None Include="python37\lib\test\test_difflib_expect.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dtw.h" />
+    <ClInclude Include="LinearRegression.h" />
+    <ClInclude Include="perceptron.h" />
+    <ClInclude Include="python37\include\abstract.h" />
+    <ClInclude Include="python37\include\accu.h" />
+    <ClInclude Include="python37\include\asdl.h" />
+    <ClInclude Include="python37\include\ast.h" />
+    <ClInclude Include="python37\include\bitset.h" />
+    <ClInclude Include="python37\include\bltinmodule.h" />
+    <ClInclude Include="python37\include\boolobject.h" />
+    <ClInclude Include="python37\include\bytearrayobject.h" />
+    <ClInclude Include="python37\include\bytesobject.h" />
+    <ClInclude Include="python37\include\bytes_methods.h" />
+    <ClInclude Include="python37\include\cellobject.h" />
+    <ClInclude Include="python37\include\ceval.h" />
+    <ClInclude Include="python37\include\classobject.h" />
+    <ClInclude Include="python37\include\code.h" />
+    <ClInclude Include="python37\include\codecs.h" />
+    <ClInclude Include="python37\include\compile.h" />
+    <ClInclude Include="python37\include\complexobject.h" />
+    <ClInclude Include="python37\include\context.h" />
+    <ClInclude Include="python37\include\datetime.h" />
+    <ClInclude Include="python37\include\descrobject.h" />
+    <ClInclude Include="python37\include\dictobject.h" />
+    <ClInclude Include="python37\include\dtoa.h" />
+    <ClInclude Include="python37\include\dynamic_annotations.h" />
+    <ClInclude Include="python37\include\enumobject.h" />
+    <ClInclude Include="python37\include\errcode.h" />
+    <ClInclude Include="python37\include\eval.h" />
+    <ClInclude Include="python37\include\fileobject.h" />
+    <ClInclude Include="python37\include\fileutils.h" />
+    <ClInclude Include="python37\include\floatobject.h" />
+    <ClInclude Include="python37\include\frameobject.h" />
+    <ClInclude Include="python37\include\funcobject.h" />
+    <ClInclude Include="python37\include\genobject.h" />
+    <ClInclude Include="python37\include\graminit.h" />
+    <ClInclude Include="python37\include\grammar.h" />
+    <ClInclude Include="python37\include\import.h" />
+    <ClInclude Include="python37\include\internal\ceval.h" />
+    <ClInclude Include="python37\include\internal\condvar.h" />
+    <ClInclude Include="python37\include\internal\context.h" />
+    <ClInclude Include="python37\include\internal\gil.h" />
+    <ClInclude Include="python37\include\internal\hamt.h" />
+    <ClInclude Include="python37\include\internal\hash.h" />
+    <ClInclude Include="python37\include\internal\import.h" />
+    <ClInclude Include="python37\include\internal\mem.h" />
+    <ClInclude Include="python37\include\internal\pygetopt.h" />
+    <ClInclude Include="python37\include\internal\pystate.h" />
+    <ClInclude Include="python37\include\internal\warnings.h" />
+    <ClInclude Include="python37\include\intrcheck.h" />
+    <ClInclude Include="python37\include\iterobject.h" />
+    <ClInclude Include="python37\include\listobject.h" />
+    <ClInclude Include="python37\include\longintrepr.h" />
+    <ClInclude Include="python37\include\longobject.h" />
+    <ClInclude Include="python37\include\marshal.h" />
+    <ClInclude Include="python37\include\memoryobject.h" />
+    <ClInclude Include="python37\include\metagrammar.h" />
+    <ClInclude Include="python37\include\methodobject.h" />
+    <ClInclude Include="python37\include\modsupport.h" />
+    <ClInclude Include="python37\include\moduleobject.h" />
+    <ClInclude Include="python37\include\namespaceobject.h" />
+    <ClInclude Include="python37\include\node.h" />
+    <ClInclude Include="python37\include\object.h" />
+    <ClInclude Include="python37\include\objimpl.h" />
+    <ClInclude Include="python37\include\odictobject.h" />
+    <ClInclude Include="python37\include\opcode.h" />
+    <ClInclude Include="python37\include\osdefs.h" />
+    <ClInclude Include="python37\include\osmodule.h" />
+    <ClInclude Include="python37\include\parsetok.h" />
+    <ClInclude Include="python37\include\patchlevel.h" />
+    <ClInclude Include="python37\include\pgen.h" />
+    <ClInclude Include="python37\include\pgenheaders.h" />
+    <ClInclude Include="python37\include\pyarena.h" />
+    <ClInclude Include="python37\include\pyatomic.h" />
+    <ClInclude Include="python37\include\pycapsule.h" />
+    <ClInclude Include="python37\include\pyconfig.h" />
+    <ClInclude Include="python37\include\pyctype.h" />
+    <ClInclude Include="python37\include\pydebug.h" />
+    <ClInclude Include="python37\include\pydtrace.h" />
+    <ClInclude Include="python37\include\pyerrors.h" />
+    <ClInclude Include="python37\include\pyexpat.h" />
+    <ClInclude Include="python37\include\pyfpe.h" />
+    <ClInclude Include="python37\include\pyhash.h" />
+    <ClInclude Include="python37\include\pylifecycle.h" />
+    <ClInclude Include="python37\include\pymacconfig.h" />
+    <ClInclude Include="python37\include\pymacro.h" />
+    <ClInclude Include="python37\include\pymath.h" />
+    <ClInclude Include="python37\include\pymem.h" />
+    <ClInclude Include="python37\include\pyport.h" />
+    <ClInclude Include="python37\include\pystate.h" />
+    <ClInclude Include="python37\include\pystrcmp.h" />
+    <ClInclude Include="python37\include\pystrhex.h" />
+    <ClInclude Include="python37\include\pystrtod.h" />
+    <ClInclude Include="python37\include\Python-ast.h" />
+    <ClInclude Include="python37\include\Python.h" />
+    <ClInclude Include="python37\include\pythonrun.h" />
+    <ClInclude Include="python37\include\pythread.h" />
+    <ClInclude Include="python37\include\pytime.h" />
+    <ClInclude Include="python37\include\py_curses.h" />
+    <ClInclude Include="python37\include\rangeobject.h" />
+    <ClInclude Include="python37\include\setobject.h" />
+    <ClInclude Include="python37\include\sliceobject.h" />
+    <ClInclude Include="python37\include\structmember.h" />
+    <ClInclude Include="python37\include\structseq.h" />
+    <ClInclude Include="python37\include\symtable.h" />
+    <ClInclude Include="python37\include\sysmodule.h" />
+    <ClInclude Include="python37\include\token.h" />
+    <ClInclude Include="python37\include\traceback.h" />
+    <ClInclude Include="python37\include\tupleobject.h" />
+    <ClInclude Include="python37\include\typeslots.h" />
+    <ClInclude Include="python37\include\ucnhash.h" />
+    <ClInclude Include="python37\include\unicodeobject.h" />
+    <ClInclude Include="python37\include\warnings.h" />
+    <ClInclude Include="python37\include\weakrefobject.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\attr.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\buffer_info.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\cast.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\chrono.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\common.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\complex.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\detail\class.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\detail\common.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\detail\descr.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\detail\init.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\detail\internals.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\detail\typeid.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\eigen.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\embed.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\eval.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\functional.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\iostream.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\numpy.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\operators.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\options.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\pybind11.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\pytypes.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\stl.h" />
+    <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\stl_bind.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
