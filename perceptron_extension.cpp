@@ -132,7 +132,7 @@ static PyModuleDef perceptron_module = {
 };
 
 PyMODINIT_FUNC
-PyInit_perceptron_model(void)
+PyInit_perceptron(void)
 {
 	PyObject* m;
 

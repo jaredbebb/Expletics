@@ -18,9 +18,6 @@
     <ClCompile Include="Dtw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="dtw_extension.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="LinearRegression.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -31,6 +28,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="python37\tcl\nmake\nmakehlp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dtw_extension.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

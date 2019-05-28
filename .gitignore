@@ -23,3 +23,5 @@ x64/
 .vs/
 Python37/
 UnitTestExpletics/x64
+build/
+*egg-info
