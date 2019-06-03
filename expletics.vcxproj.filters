@@ -39,6 +39,12 @@
     <ClCompile Include="linear_regression_extension.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FeedForward.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SigmoidNeuron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="python37\lib\idlelib\config-extensions.def">
@@ -473,6 +479,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LinearRegression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FeedForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SigmoidNeuron.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

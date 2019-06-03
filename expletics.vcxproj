@@ -119,12 +119,14 @@
   <ItemGroup>
     <ClCompile Include="Dtw.cpp" />
     <ClCompile Include="dtw_extension.cpp" />
+    <ClCompile Include="FeedForward.cpp" />
     <ClCompile Include="LinearContainer.cpp" />
     <ClCompile Include="LinearRegression.cpp" />
     <ClCompile Include="linear_regression_extension.cpp" />
     <ClCompile Include="perceptron.cpp" />
     <ClCompile Include="perceptron_extension.cpp" />
     <ClCompile Include="python37\tcl\nmake\nmakehlp.c" />
+    <ClCompile Include="SigmoidNeuron.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="python37\lib\idlelib\config-extensions.def" />
@@ -137,6 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dtw.h" />
+    <ClInclude Include="FeedForward.h" />
     <ClInclude Include="LinearContainer.h" />
     <ClInclude Include="LinearRegression.h" />
     <ClInclude Include="perceptron.h" />
@@ -275,6 +278,7 @@
     <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\pytypes.h" />
     <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\stl.h" />
     <ClInclude Include="python37\lib\site-packages\pybind11-2.2.4-py3.7.egg\stl_bind.h" />
+    <ClInclude Include="SigmoidNeuron.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

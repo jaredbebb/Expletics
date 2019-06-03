@@ -35,5 +35,11 @@
     <ClCompile Include="unittestlinearregression.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="unittestfeedforward.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unittestsigmoidneuron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
