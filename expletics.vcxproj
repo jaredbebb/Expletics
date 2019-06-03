@@ -119,7 +119,9 @@
   <ItemGroup>
     <ClCompile Include="Dtw.cpp" />
     <ClCompile Include="dtw_extension.cpp" />
+    <ClCompile Include="LinearContainer.cpp" />
     <ClCompile Include="LinearRegression.cpp" />
+    <ClCompile Include="linear_regression_extension.cpp" />
     <ClCompile Include="perceptron.cpp" />
     <ClCompile Include="perceptron_extension.cpp" />
     <ClCompile Include="python37\tcl\nmake\nmakehlp.c" />
@@ -135,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dtw.h" />
+    <ClInclude Include="LinearContainer.h" />
     <ClInclude Include="LinearRegression.h" />
     <ClInclude Include="perceptron.h" />
     <ClInclude Include="python37\include\abstract.h" />
